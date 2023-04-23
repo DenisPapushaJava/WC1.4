@@ -1,0 +1,170 @@
+@font-face {
+    font-family: "TT Lakes";
+    font-style: normal;
+    font-weight: 400;
+    src: url(../fonts/TTLakes-Regular.ttf) format("truetype"),
+    url("../fonts/TTLakes-Regular.ttf") format("woff");
+}
+
+@font-face {
+    font-family: "TT Lakes";
+    font-style: normal;
+    font-weight: 500;
+    src: url(../fonts/TTLakes-Medium.ttf) format("truetype"),
+    url("../fonts/TTLakes-Medium.ttf") format("woff");
+}
+
+@font-face {
+    font-family: "TT Lakes";
+    font-style: normal;
+    font-weight: 700;
+    src: url(../fonts/TTLakes-Bold.ttf) format("truetype"),
+    url("../fonts/TTLakes-Bold.ttf") format("woff");
+}
+
+* {
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "TT Lakes", serif;
+    font-size: 14px;
+    margin: 0;
+}
+
+.menu__mobile {
+    width: 320px;
+    padding: 18px 24px 32px 24px;
+}
+
+.nav__list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 47px;
+}
+
+.icon {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #FF3E79;
+    transition: all 0.5s ease-out;
+}
+.icon:hover,
+icon:focus{
+
+    transform: scale(1.1);
+    background: #e33363;
+
+}
+
+.icon__line {
+    width: 18px;
+    height: 2px;
+    background: #fff;
+    border-radius: 1px;
+
+}
+
+.icon__line:first-child {
+    transform: rotate(45deg);
+    transform-origin: 43%;
+}
+
+.icon__line:last-child {
+    transform: rotate(-45deg);
+    transform-origin: 43%;
+}
+
+.icon__line--center {
+    display: none;
+    width: 10px;
+    height: 2px;
+    border-radius: 1px;
+    background: #fff;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.nav__items__logo--position {
+    transform: translateX(-31px);
+}
+
+.main-menu__item {
+    position: relative;
+    margin-bottom: 32px;
+}
+
+.main-menu__link {
+    font-size: 16px;
+    color: #1B1C21;
+    font-weight: 500;
+}
+
+.main-menu__link:hover,
+.main-menu__link:focus {
+    outline: none;
+    color: #41F6D7;
+}
+
+.main-menu__link--active {
+    color: #7E7E82;
+}
+
+.main-menu__link--active::before {
+    content: '';
+    position: absolute;
+    top: -7px;
+    left: -24px;
+    border-radius: 0 4px 4px 0;
+    width: 4px;
+    height: 32px;
+    background-color: #41F6D7;
+}
+
+.contact--mobile-menu {
+    margin-top: 268px;
+}
+
+.contact__icons {
+    display: flex;
+    margin-bottom: 16px;
+}
+
+.contact__icon {
+    margin-right: 16px;
+}
+
+.contact__email--mobile-menu {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 12px;
+}
+
+.contact__telephone--mobile-menu {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 42px;
+}
+
+.lang__btn {
+    text-transform: uppercase;
+    font-size: 16px;
+}
+.lang__btn:hover{
+    box-shadow: 0 0 5px 2px #41F6D7;
+    border-radius: 40%;
+}
+
+.lang__btn--active{
+    color:#7E7E82;
+
+}
