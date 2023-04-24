@@ -36,6 +36,7 @@ body {
 .menu__mobile {
     width: 320px;
     padding: 18px 24px 32px 24px;
+    box-shadow: -2px 0 4px rgba(69, 79, 126, 0.02), 16px 0 52px rgba(14, 24, 80, 0.2);
 }
 
 .nav__list {
