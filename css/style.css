@@ -150,7 +150,8 @@ body {
 .contact__email__link{
     font-size: 16px;
     font-weight: 500;
-    color: inherit;
+    color:#1B1C21;
+;
 }
 
 .contact__telephone--mobile-menu {
@@ -159,7 +160,8 @@ body {
 .contact__telephone__link{
     font-size: 24px;
     font-weight: 700;
-    color: inherit;
+    color:#1B1C21;
+;
 }
 
 .lang__btn {
