@@ -145,15 +145,21 @@ body {
 }
 
 .contact__email--mobile-menu {
+    margin-bottom: 12px;
+}
+.contact__email__link{
     font-size: 16px;
     font-weight: 500;
-    margin-bottom: 12px;
+    color: inherit;
 }
 
 .contact__telephone--mobile-menu {
+    margin-bottom: 42px;
+}
+.contact__telephone__link{
     font-size: 24px;
     font-weight: 700;
-    margin-bottom: 42px;
+    color: inherit;
 }
 
 .lang__btn {
